@@ -81,9 +81,9 @@
       "parameters": {
         "calendar": {
           "__rl": true,
-          "value": "thataibuddy3@gmail.com",
+          "value": "={{$env.GOOGLE_CALENDAR_ID}}",
           "mode": "list",
-          "cachedResultName": "thataibuddy3@gmail.com"
+          "cachedResultName": "={{$env.GOOGLE_CALENDAR_ID}}"
         },
         "start": "={{ $fromAI(\"starttime\",\"the time the user asks for the event to start\") }}",
         "end": "={{ $fromAI(\"endtime\",\"the time the user asks for the event to end\") }}",
@@ -111,9 +111,9 @@
       "parameters": {
         "calendar": {
           "__rl": true,
-          "value": "thataibuddy3@gmail.com",
+          "value": "={{$env.GOOGLE_CALENDAR_ID}}",
           "mode": "list",
-          "cachedResultName": "thataibuddy3@gmail.com"
+          "cachedResultName": "={{$env.GOOGLE_CALENDAR_ID}}"
         },
         "start": "={{ $fromAI(\"starttime\",\"the time the user asks for the event to start\") }}",
         "end": "={{ $fromAI(\"endtime\",\"the time the user asks for the event to end\") }}",
@@ -144,9 +144,9 @@
         "operation": "getAll",
         "calendar": {
           "__rl": true,
-          "value": "thataibuddy3@gmail.com",
+          "value": "={{$env.GOOGLE_CALENDAR_ID}}",
           "mode": "list",
-          "cachedResultName": "thataibuddy3@gmail.com"
+          "cachedResultName": "={{$env.GOOGLE_CALENDAR_ID}}"
         },
         "returnAll": true,
         "options": {
