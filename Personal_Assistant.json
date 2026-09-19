@@ -79,17 +79,17 @@
         "toolDescription": "Get row(s) in sheet in Google Sheets",
         "documentId": {
           "__rl": true,
-          "value": "1OsyD46Qanv1_u1rV2VC2C-3UNo-UO1etAbDx3jIZlFo",
+          "value": "={{$env.GOOGLE_SHEETS_DOCUMENT_ID}}",
           "mode": "list",
           "cachedResultName": "Contact database",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1OsyD46Qanv1_u1rV2VC2C-3UNo-UO1etAbDx3jIZlFo/edit?usp=drivesdk"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/={{$env.GOOGLE_SHEETS_DOCUMENT_ID}}/edit?usp=drivesdk"
         },
         "sheetName": {
           "__rl": true,
           "value": "gid=0",
           "mode": "list",
           "cachedResultName": "Sheet1",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1OsyD46Qanv1_u1rV2VC2C-3UNo-UO1etAbDx3jIZlFo/edit#gid=0"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/={{$env.GOOGLE_SHEETS_DOCUMENT_ID}}/edit#gid=0"
         },
         "options": {}
       },
