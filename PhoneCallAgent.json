@@ -35,7 +35,7 @@
           "parameters": [
             {
               "name": "Authorization",
-              "value": "Bearer 034c0462-c96d-4129-8ca2-029c6c96f69e"
+              "value": "Bearer {{$env.VAPI_API_KEY}}"
             }
           ]
         },
@@ -84,7 +84,7 @@
           "parameters": [
             {
               "name": "Authorization",
-              "value": "Bearer 034c0462-c96d-4129-8ca2-029c6c96f69e"
+              "value": "Bearer {{$env.VAPI_API_KEY}}"
             }
           ]
         },
