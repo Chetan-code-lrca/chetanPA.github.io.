@@ -23,6 +23,18 @@ The imported workflows also reference n8n credential entries. After importing th
 
 Never commit API keys, OAuth tokens, passwords, or other service credentials to this repository.
 
+## Validate the exports
+
+The repository includes a structural validation suite for all four workflow exports. It checks JSON validity, unique node names and IDs, connection references, inactive export state, and common live-secret formats.
+
+Run it with Python 3.11 or newer:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+GitHub Actions runs the same checks on every pull request. This does not prove that credentials are configured correctly or that third-party n8n nodes/services are available; import each workflow into a test n8n instance and run it with synthetic accounts before activation.
+
 ## Importing into n8n
 
 1. Open n8n and choose **Import from File**.
